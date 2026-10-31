@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "id": "donutfinder",
+ "version": "${version}",
+ "name": "DonutFinder",
+ "description": "Client-side storage cluster detector for loaded chunks.",
+ "environment": "client",
+ "entrypoints": { "client": ["com.donutfinder.DonutFinder"] },
+ "mixins": ["donutfinder.mixins.json"],
+ "depends": { "fabricloader": ">=0.18.0", "minecraft": "1.21.11", "java": ">=21" }
+}
